@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
+
+:root {
+    --green-500: #38b96e;
+    --green-900: #69a782;
+    --grey-100: #202225;
+    --grey-200: #292b2f;
+    --grey-300: #2f3136;
+    --grey-400: #36393f;
+    --grey-500: #40444b;
+    --grey-600: #72767d;
+    --grey-700: #a3a1a7;
+    --grey-800: #d0d1d3;
+    --grey-900: #eeeeee;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--grey-100);
+}
+
+.header {
+    background: var(--grey-200);
+    border-bottom: 1px solid var(--green-500);
+    box-shadow: 0 2px 32px black;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    min-width: 492px;
+    padding: 16px;
+}
+
+.header-img {
+    border: 1px solid var(--grey-100);
+    border-radius: 50%;
+    box-shadow: 1px 1px 16px black;
+    margin: auto 0;
+}
+
+.header-text-section {
+    align-items: center;
+    color: var(--green-900);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Reenie Beanie';
+    justify-content: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+.header-text-section > h1 {
+    color: var(--green-500);
+    font-size: 3.5em;
+}
+
+.header-text-section > h3 {
+    border-bottom: 1px solid var(--grey-100);
+    font-size: 1.5em;
+    margin: -8px 0 8px 0;
+    padding-bottom: 8px;
+}
+
+.header-text-section > p {
+    font-size: 1.5em;
+}
