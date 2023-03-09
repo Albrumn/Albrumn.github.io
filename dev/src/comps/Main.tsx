@@ -5,6 +5,7 @@ import discordLogo from "../img/discord_logo.png";
 import duolingoLogo from "../img/duolingo_logo.png";
 import githubLogo from "../img/github_logo.png";
 import languageLearnerLogo from "../img/languageLearner_logo.png";
+import psittacusEbriusLogo from "../img/psittacusEbrius_logo2.png"
 import webDevLogo from "../img/webDev_logo.png";
 import youtubeLogo from "../img/youtube_logo.png";
 
@@ -46,6 +47,12 @@ export default function Main() {
             <Article
                 header="Projects"
                 sections={[
+                    {
+                        header: "Psittacus Ebrius",
+                        img: psittacusEbriusLogo,
+                        body: "I am working on a Latin language learning site.",
+                        link: "https://corydergrosse.github.io/psittacusebrius/blog"
+                    },
                     {
                         header: "GitHub",
                         img: githubLogo,
