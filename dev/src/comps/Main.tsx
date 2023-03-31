@@ -1,6 +1,6 @@
 import Article from "./Article";
-import darkDuolingoChrome from "../img/darkDuolingo_chrome.png";
-import darkDuolingoFirefox from "../img/darkDuolingo_firefox.png";
+import darkDuolingo from "../img/darkDuolingo.png";
+import duoDiscord from "../img/duoDiscord.png";
 import discordLogo from "../img/discord_logo.png";
 import duolingoLogo from "../img/duolingo_logo.png";
 import githubLogo from "../img/github_logo.png";
@@ -13,19 +13,19 @@ export default function Main() {
     return(
         <main>
             <Article
-                header="Duolingo Add-Ons"
+                header="Browser Add-Ons"
                 sections={[
                     {
-                        header: "Dark Duolingo for Chrome",
-                        img: darkDuolingoChrome,
+                        header: "Dark Duolingo",
+                        img: darkDuolingo,
                         body: "Darken Duolingo's UI to play without burning your retinas! This extension affects Duolingo's style only, not its functionality.",
-                        link: "https://chrome.google.com/webstore/detail/dark-duolingo/oecpphmlhglapklhnfoeffckahfmjhdl"
+                        link: "https://corydergrosse.github.io/add-ons/darkDuolingo/"
                     },
                     {
-                        header: "Dark Duolingo for Firefox",
-                        img: darkDuolingoFirefox,
-                        body: "Darken Duolingo's UI to play without burning your retinas! This extension affects Duolingo's style only, not its functionality.",
-                        link: "https://addons.mozilla.org/en-US/firefox/addon/dark-duolingo/"
+                        header: "Duolingo Discord Server",
+                        img: duoDiscord,
+                        body: "Upgrade the Duolingo Discord server's navigation sidebar to assist in quickly finding the channel you're looking for by adding language flags and other Duo-related icons.",
+                        link: "https://corydergrosse.github.io/add-ons/duoDiscord"
                     }
                 ]} />
                 <Article
