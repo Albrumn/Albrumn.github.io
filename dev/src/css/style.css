@@ -2,8 +2,10 @@
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
 
 :root {
+    --green-100: #002c07;
     --green-500: #45bf57;
-    --green-900: #94e0b2;
+    --green-900: #83d8a3;
+    --green-900-0: #83d8a300;
     --grey-100-opacity-0: #1d1f1d00;
     --grey-100: #1d1f1d;
     --grey-200: #292b2f;
@@ -27,22 +29,24 @@
     padding: 0;
 }
 
+body {
+    background: url("../img/background.png");
+    color: var(--green-500);
+    backdrop-filter: blur(2px);
+    font-family: 'Reenie Beanie';
+    text-shadow: 1px 1px 2px black;
+}
+
 article {
-    background: var(--grey-300);
+    backdrop-filter: blur(0.5rem) brightness(0.325) grayscale(0.125);
     border: 1px solid var(--green-900);
     border-radius: 8px;
     box-shadow: 0 0 16px black;
     padding: 16px 24px;
 }
 
-body {
-    background: var(--grey-100);
-    color: var(--green-500);
-    font-family: 'Reenie Beanie';
-    text-shadow: 1px 1px 2px black;
-}
-
 footer {
+    background: linear-gradient(transparent, var(--green-100));
     align-items: center;
     color: var(--green-900);
     display: flex;
@@ -64,7 +68,7 @@ h2 {
 }
 
 header {
-    background: var(--grey-300);
+    backdrop-filter: blur(0rem) brightness(0.325) grayscale(0.125);
     border-bottom: 1px solid var(--green-900);
     box-shadow: 0 2px 32px black;
     color: var(--green-900);
@@ -78,8 +82,8 @@ header {
 main {
     display: grid;
     font-family: "Varela Round";
-    gap: 32px;
-    margin: 32px;
+    gap: 1rem;
+    margin: 1rem;
 }
 
 section {
@@ -158,7 +162,7 @@ section img {
 }
 
 .hr {
-    background-image: linear-gradient(90deg, var(--grey-200) 0%, var(--green-900) 10%, var(--green-900) 90%, var(--grey-200) 100%);
+    background-image: linear-gradient(90deg, var(--green-900-0) 0%, var(--green-900) 10%, var(--green-900) 90%, var(--green-900-0) 100%);
     height: 1px;
     min-width: 20vw;
     width: 100%;
