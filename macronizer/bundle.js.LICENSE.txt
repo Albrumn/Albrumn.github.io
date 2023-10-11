@@ -272,3 +272,11 @@ https://github.com/nodeca/pako/blob/master/LICENSE
 /*!**************************************************************************************************************************!*\
   !*** external {"commonjs":"./WMFJS.bundle.js","commonjs2":"./WMFJS.bundle.js","amd":"./WMFJS.bundle.js","root":"WMFJS"} ***!
   \**************************************************************************************************************************/
+
+/**
+ * Returns an array of the selectors.
+ *
+ * @license Sizzle CSS Selector Engine - MIT
+ * @param {String} selectorText from mensch
+ * @api public
+ */
