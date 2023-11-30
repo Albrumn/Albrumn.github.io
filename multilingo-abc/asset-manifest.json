@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/multilingo-abc/static/css/main.da2f8139.css",
-    "main.js": "/multilingo-abc/static/js/main.8969cc51.js",
+    "main.js": "/multilingo-abc/static/js/main.1888bf76.js",
     "static/media/complete.mp3": "/multilingo-abc/static/media/complete.2aae0ea735c8e9ed8841.mp3",
     "static/media/right.mp3": "/multilingo-abc/static/media/right.37d8f0b39dcfe6387219.mp3",
     "static/media/wrong.mp3": "/multilingo-abc/static/media/wrong.f0b6ab4396d5891241ef.mp3",
@@ -11,10 +11,10 @@
     "static/media/click.mp3": "/multilingo-abc/static/media/click.2e4669d8cf839272f073.mp3",
     "index.html": "/multilingo-abc/index.html",
     "main.da2f8139.css.map": "/multilingo-abc/static/css/main.da2f8139.css.map",
-    "main.8969cc51.js.map": "/multilingo-abc/static/js/main.8969cc51.js.map"
+    "main.1888bf76.js.map": "/multilingo-abc/static/js/main.1888bf76.js.map"
   },
   "entrypoints": [
     "static/css/main.da2f8139.css",
-    "static/js/main.8969cc51.js"
+    "static/js/main.1888bf76.js"
   ]
 }
