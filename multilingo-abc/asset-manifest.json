@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.da2f8139.css",
-    "main.js": "./static/js/main.479453db.js",
-    "static/media/complete.mp3": "./static/media/complete.2aae0ea735c8e9ed8841.mp3",
-    "static/media/right.mp3": "./static/media/right.37d8f0b39dcfe6387219.mp3",
-    "static/media/wrong.mp3": "./static/media/wrong.f0b6ab4396d5891241ef.mp3",
-    "static/media/start.mp3": "./static/media/start.a28ff0a501ef5f33ca78.mp3",
-    "static/media/cover.png": "./static/media/cover.a3a7676f59690265156b.png",
-    "static/media/icon.png": "./static/media/icon.62754e2868a4b956f264.png",
-    "static/media/click.mp3": "./static/media/click.2e4669d8cf839272f073.mp3",
-    "index.html": "./index.html",
-    "main.da2f8139.css.map": "./static/css/main.da2f8139.css.map",
-    "main.479453db.js.map": "./static/js/main.479453db.js.map"
+    "main.css": "./multilingo-abc/static/css/main.da2f8139.css",
+    "main.js": "./multilingo-abc/static/js/main.59303058.js",
+    "static/media/complete.mp3": "./multilingo-abc/static/media/complete.2aae0ea735c8e9ed8841.mp3",
+    "static/media/right.mp3": "./multilingo-abc/static/media/right.37d8f0b39dcfe6387219.mp3",
+    "static/media/wrong.mp3": "./multilingo-abc/static/media/wrong.f0b6ab4396d5891241ef.mp3",
+    "static/media/start.mp3": "./multilingo-abc/static/media/start.a28ff0a501ef5f33ca78.mp3",
+    "static/media/cover.png": "./multilingo-abc/static/media/cover.a3a7676f59690265156b.png",
+    "static/media/icon.png": "./multilingo-abc/static/media/icon.62754e2868a4b956f264.png",
+    "static/media/click.mp3": "./multilingo-abc/static/media/click.2e4669d8cf839272f073.mp3",
+    "index.html": "./multilingo-abc/index.html",
+    "main.da2f8139.css.map": "./multilingo-abc/static/css/main.da2f8139.css.map",
+    "main.59303058.js.map": "./multilingo-abc/static/js/main.59303058.js.map"
   },
   "entrypoints": [
     "static/css/main.da2f8139.css",
-    "static/js/main.479453db.js"
+    "static/js/main.59303058.js"
   ]
 }
