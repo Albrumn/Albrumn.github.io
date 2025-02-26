@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math</title>
+</head>
+<body style="text-align: center">
+    <button id="mode" onclick="toggleMode()">Current Mode: easy</button>
+    <button onclick="printQuestion(-20, 50)">Next Question</button>
+    <h1 id="text"></h1>
+    <script>
+        let easyMode = true;
+
+        function toggleMode() {
+            easyMode = ! easyMode;
+            document.getElementById('mode').innerHTML = 'Current Mode: ' + (easyMode ? 'easy' : 'hard');
+            printQuestion(-20, 50)
+        }
+        
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * max);
+        }
+
+        function getRandomNumber(min, max) {
+            return (Math.random() * (max - min) + min).toFixed(easyMode ? 0 : 1);
+        }
+
+        function getRandomVariable() {
+            const variables = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+            return `<i style="color: ${easyMode ? 'blue' : 'red'}">${variables[getRandomInt(variables.length)]}</i>`;
+        }
+
+        function getRandomOperator() {
+            const operators = ['+', '–', '×', '/'];
+            return operators[getRandomInt(operators.length)];
+        }
+
+        function getRandomQuestion(min, max) {
+            const version = getRandomInt(4);
+            
+            switch (version) {
+                case 0:
+                    return `${getRandomVariable()} ${getRandomOperator()} ${getRandomNumber(min, max)} = ${getRandomNumber(min, max)}`;
+                case 1:
+                    return `${getRandomNumber(min, max)} ${getRandomOperator()} ${getRandomVariable()} = ${getRandomNumber(min, max)}`;
+                case 2:
+                    return `${getRandomNumber(min, max)} = ${getRandomVariable()} ${getRandomOperator()} ${getRandomNumber(min, max)}`;
+                case 3:
+                default:
+                    return `${getRandomNumber(min, max)} = ${getRandomNumber(min, max)} ${getRandomOperator()} ${getRandomVariable()}`;
+            }
+        }
+
+        function printQuestion(min, max) {
+            document.getElementById('text').innerHTML = getRandomQuestion(min, max);
+        }
+    </script>
+</body>
+</html>
