@@ -26,9 +26,9 @@
         ctx.strokeStyle = "#913d88";
         ctx.lineWidth = 2;
 
-        canvas.onmousedown = startDrawing;
-        canvas.onmouseup = stopDrawing;
-        canvas.onmousemove = draw;
+        canvas.onpointerdown = startDrawing;
+        canvas.onpointerup = stopDrawing;
+        canvas.onpointermove = draw;
         
         function startDrawing(e) {
             isDrawing = true;
