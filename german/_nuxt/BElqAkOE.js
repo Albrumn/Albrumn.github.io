@@ -1,0 +1,2 @@
+import{g as o,p as r,ak as i,n as l,v as c,b as m,B as u,d as p,c as d,aO as V}from"./DZkRm3LN.js";const v=r({fluid:{type:Boolean,default:!1},...p(),...u(),...m()},"VContainer"),f=o()({name:"VContainer",props:v(),setup(e,a){let{slots:s}=a;const{rtlClasses:n}=i(),{dimensionStyles:t}=l(e);return c(()=>d(e.tag,{class:["v-container",{"v-container--fluid":e.fluid},n.value,e.class],style:[t.value,e.style]},s)),{}}}),k=V("v-spacer","div","VSpacer");export{k as V,f as a};
+//# sourceMappingURL=BElqAkOE.js.map
